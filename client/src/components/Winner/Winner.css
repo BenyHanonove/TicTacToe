@@ -1,0 +1,31 @@
+.winnerDiv{
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    background: rgb(130,120,219);
+    background: linear-gradient(90deg, rgba(130,120,219,0.9836309523809523) 0%, rgba(128,128,222,1) 36%, rgba(118,164,208,1) 67%, rgba(106,135,214,1) 100%);
+    box-shadow: 10px 10px 5px 12px lightblue;
+    position: relative;
+    margin-top: 200px;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    border-style: outset;
+    border-color: black;
+}
+
+.winnerLogo{
+    width: 50%;
+    height: 60%;
+    left: 50%;
+    margin-left: 25%; 
+}
+
+.winnerH1{
+    font-size: 120%;
+    text-align: center;
+}
+
+.winnerBtn{
+    width: 30%;
+    margin-left: 35%;
+}

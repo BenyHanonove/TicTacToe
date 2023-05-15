@@ -1,0 +1,27 @@
+.boardDiv{
+    width: 400px;
+    height: 400px;
+    position: relative;
+    margin-top: 250px;
+    left: 50%;
+    transform: translate(-50%,-50%); 
+}
+
+
+.boxDiv{
+    float: left;
+    height: 25%;
+    width: 31%;
+    border-color: black;
+    border-style: solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.boxLabel{
+    position: relative;
+    font-size:80px;
+    color:  rgb(130,120,219);
+    text-align: center;
+}
