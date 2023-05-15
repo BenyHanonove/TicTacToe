@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Login from "../Login/Login.js";
 import "./Signup.css";
-import {instance} from "../../ngrok.js";
+import {instance} from "../../ngrock.js";
 
 function Signup() {
 

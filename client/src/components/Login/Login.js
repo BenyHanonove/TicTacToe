@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import {instance} from "../../ngrok.js";
+import {instance} from "../../ngrock.js";
 import Cookies from "universal-cookie";
 import Signup from "../Signup/Signup.js";
 import "./Login.css";
