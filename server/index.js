@@ -3,7 +3,7 @@ import dotenv from "dotenv";
 import mongoose from "mongoose";
 import cors from "cors";
 import bodyParser from "body-parser";
-import userRouter from "./router/users.js";
+import userRouter from "./routers/user.js";
 import {createServer} from "http";
 import {Server} from "socket.io";
 
